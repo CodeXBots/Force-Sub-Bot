@@ -20,10 +20,15 @@
 ## 𝐶𝑜𝑚𝑚𝑎𝑛𝑑𝑠
 
 • /start - ᴛᴏ ꜱᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ
+
 • /help - ᴛᴏ ᴄʜᴇᴄᴋ ʙᴏᴛ ᴅᴇᴛᴀɪʟꜱ
+
 • /ForceSubscribe - ᴛᴏ ɢᴇᴛ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ꜱᴇᴛᴛɪɴɢꜱ
+
 • /ForceSubscribe off - ᴛᴏ ᴛᴜʀɴ ᴏꜰꜰ ꜰᴏʀᴄᴇ ꜱᴜʙꜱᴄʀɪʙᴇ
+
 • /ForceSubscribe clear - ᴜɴᴍᴜᴛᴇ ᴀʟʟ ᴍᴇᴍʙᴇʀꜱ ᴡʜᴏ ᴀʀᴇ ᴍᴜᴛᴇᴅ ʙʏ ᴍᴇ
+
 • /ForceSubscribe {channel username or channel ID} - ᴛᴏ ᴛᴜʀɴ ᴏɴ ꜰᴏʀᴄᴇ ꜱᴜʙꜱᴄʀɪʙᴇ
 
 <details>

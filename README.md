@@ -1,4 +1,3 @@
-
 <h2 align="center">
   ─「 ꜰᴏʀᴄᴇ ꜱᴜʙ  ʙᴏᴛ 」─
 </h2>
@@ -74,13 +73,12 @@ python3 bot.py
 </p>
 </details>
 
-<h3 align="center">
-    ─「 ᴄʀᴇᴅɪᴛs 」─
+<h3>「 ᴄʀᴇᴅɪᴛs 」
 </h3>
 
 - <b>[ɴᴏʙɪ ᴅᴇᴠᴇʟᴏᴘᴇʀ](https://github.com/NobiDeveloper)  ➻  [ᴇᴠᴇʀʏᴛʜɪɴɢ](https://youtube.com/@NobiDeveloper) </b>
  
-<b>ᴀɴᴅ ᴀʟʟ [ᴛʜᴇ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs](https://telegram.me/BotszSupport) ᴡʜᴏ ʜᴇʟᴩᴇᴅ ɪɴ ᴍᴀᴋɪɴɢ ʀᴇɴᴀᴍᴇ ʙᴏᴛ ᴜsᴇꜰᴜʟ & ᴩᴏᴡᴇʀꜰᴜʟ 🖤 </b>
+<b>ᴀɴᴅ ᴀʟʟ [ᴛʜᴇ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs](https://telegram.me/BotszSupport) ᴡʜᴏ ʜᴇʟᴩᴇᴅ ɪɴ ᴍᴀᴋɪɴɢ ꜰᴏʀᴄᴇ ꜱᴜʙ ʙᴏᴛ ᴜsᴇꜰᴜʟ & ᴩᴏᴡᴇʀꜰᴜʟ 🖤 </b>
 
 ##  𝑵𝒐𝒕𝒆  📌
 

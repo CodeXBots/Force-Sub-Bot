@@ -4,7 +4,7 @@ class Config():
   #Get it from @botfather
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
   # Your bot updates channel username without @ or leave empty
-  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "MovieVillaYT")
+  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "NobiDeveloper")
   # Postgres DB URL
   DATABASE_URL = os.environ.get("DATABASE_URL", "")
   # get it from my.telegram.org
@@ -25,7 +25,7 @@ class Messages():
         
         "**Commmands**\n\n__/ForceSubscribe - To get the current settings.\n/ForceSubscribe no/off/disable - To turn of ForceSubscribe.\n/ForceSubscribe {channel username or channel ID} - To turn on and setup the channel.\n/ForceSubscribe clear - To unmute all members who muted by me.\n\nNote: /FSub is an alias of /ForceSubscribe__",
         
-       "**ᴅᴇᴠᴇʟᴏᴘᴇᴅ  ʙʏ**  [ɴᴏʙɪᴛᴀ](https://youtube.com/@movievillayt)"
+       "**ᴅᴇᴠᴇʟᴏᴘᴇᴅ  ʙʏ**  [ɴᴏʙɪᴛᴀ](https://youtube.com/@nobideveloper)"
       ]
       SC_MSG = "**Hey [{}](tg://user?id={})**\n click on below👇 button to get my source code, for more help ask in my support group👇👇 "
 

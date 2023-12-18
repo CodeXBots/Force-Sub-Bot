@@ -62,8 +62,8 @@ async def _source_code(client, message):
                     InlineKeyboardButton("Souce Code", url="https://github.com/Nobideveloper/Force-Sub-Bot")
                 ],
                 [
-                    InlineKeyboardButton("Join Updates Channel", url="https://telegram.me/BotszList"),
-                    InlineKeyboardButton("Support Group", url="https://telegram.me/BotszSupport")
+                    InlineKeyboardButton("Join Updates Channel", url="https://telegram.me/NobiDeveloper"),
+                    InlineKeyboardButton("Support Group", url="https://telegram.me/NobiDeveloperSupport")
                 ],
                 [
                     InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://telegram.me/Nobideveloperr")
@@ -105,7 +105,7 @@ async def _help(client, message):
         except Exception:
             await client.send_message(
                 chat_id=message.chat.id,
-                text="Hey use this command in my pm. \nFor more help ask in my [Support Group](https://telegram.me/BotszSupport).",
+                text="Hey use this command in my pm. \nFor more help ask in my [Support Group](https://telegram.me/NobiDeveloperSupport).",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return

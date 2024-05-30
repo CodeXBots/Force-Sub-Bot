@@ -10,9 +10,9 @@
         "Forcesub",
         "ForceSubBot"
     ],
-    "repository": "https://github.com/Nobideveloper/Force-Sub-Bot",
-    "website": "https://telegram.me/MovieVillaYT",
-    "success_url": "https://telegram.me/Nobideveloper",
+    "repository": "https://github.com/CodeXBots/Force-Sub-Bot",
+    "website": "https://telegram.me/RahulReviews",
+    "success_url": "https://telegram.me/RahulReviewsYT",
     "env": {
         "API_HASH": {
             "description": "You API HASH from my.telegram.org",

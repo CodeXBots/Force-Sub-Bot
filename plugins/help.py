@@ -39,14 +39,14 @@ async def _start(client, message):
         except Exception:
             await client.send_message(message.chat.id,
                 text=tr.START_MSG.format(message.from_user.first_name, message.from_user.id),
-                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚚     ɱᴀɪɴ   𝙲ʜᴀɴɴᴇʟ     ⚚', url='https://youtube.com/@nobideveloper')],[InlineKeyboardButton('😊  𝙰ʙᴏᴜᴛ', url='https://telegram.me/Nobideveloper'),InlineKeyboardButton('👨‍💻  𝙾ᴡɴᴇʀ', url='https://telegram.me/Nobideveloperr')]]),                
+                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚚     ɱᴀɪɴ   𝙲ʜᴀɴɴᴇʟ     ⚚', url='https://youtube.com/@RahulReviews')],[InlineKeyboardButton('😊  𝙰ʙᴏᴜᴛ', url='https://telegram.me/RahulReviews'),InlineKeyboardButton('👨‍💻  𝙾ᴡɴᴇʀ', url='https://telegram.me/CodeXBro')]]),                
         parse_mode="markdown",
         reply_to_message_id=message.message_id
         )
             return
     await client.send_message(message.chat.id,
         text=tr.START_MSG.format(message.from_user.first_name, message.from_user.id),
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚚     ɱᴀɪɴ   𝙲ʜᴀɴɴᴇʟ     ⚚', url='https://youtube.com/@nobideveloper')],[InlineKeyboardButton('😊  𝙰ʙᴏᴜᴛ', url='https://telegram.me/Nobideveloper'),InlineKeyboardButton('👨‍💻  𝙾ᴡɴᴇʀ', url='https://telegram.me/Nobideveloperr')]]), 
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚚     ɱᴀɪɴ   𝙲ʜᴀɴɴᴇʟ     ⚚', url='https://youtube.com/@RahulReviews')],[InlineKeyboardButton('😊  𝙰ʙᴏᴜᴛ', url='https://telegram.me/RahulReviews'),InlineKeyboardButton('👨‍💻  𝙾ᴡɴᴇʀ', url='https://telegram.me/CodeXBro')]]), 
         parse_mode="markdown",
         reply_to_message_id=message.message_id
         )
@@ -59,14 +59,14 @@ async def _source_code(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Souce Code", url="https://github.com/Nobideveloper/Force-Sub-Bot")
+                    InlineKeyboardButton("Souce Code", url="https://github.com/CodeXBots/Force-Sub-Bot")
                 ],
                 [
-                    InlineKeyboardButton("Join Updates Channel", url="https://telegram.me/NobiDeveloper"),
-                    InlineKeyboardButton("Support Group", url="https://telegram.me/NobiDeveloperSupport")
+                    InlineKeyboardButton("Join Updates Channel", url="https://telegram.me/RahulReviewsYT"),
+                    InlineKeyboardButton("Support Group", url="https://telegram.me/CodeXSupport")
                 ],
                 [
-                    InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://telegram.me/Nobideveloperr")
+                    InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://telegram.me/CodeXBro")
                 ]
             ]
         ),
@@ -105,7 +105,7 @@ async def _help(client, message):
         except Exception:
             await client.send_message(
                 chat_id=message.chat.id,
-                text="Hey use this command in my pm. \nFor more help ask in my [Support Group](https://telegram.me/NobiDeveloperSupport).",
+                text="Hey use this command in my pm. \nFor more help ask in my [Support Group](https://telegram.me/CodeXSupport).",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return

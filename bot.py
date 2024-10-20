@@ -1,19 +1,24 @@
-import logging
-from pyrogram import Client, idle
-from Config import Config
+import os
+import pyrogram
 
-plugins = dict(
+if bool(os.environ.get("WEBHOOK", False)):
+    from sample_config import Config
+else:
+    from config import Config
+
+
+
+if __name__ == "__main__" :
+    plugins = dict(
         root="plugins"
-         )
-
-app = Client(
-     'ForceSubscribeRobot',
-      bot_token = Config.BOT_TOKEN,
-      api_id = Config.APP_ID,
-      api_hash = Config.API_HASH,
-      plugins=plugins
-)
-
-app.start()
-idle()
-app.stop()
+    )
+    app = pyrogram.Client(
+        "filter bot",
+        bot_token=Config.TG_BOT_TOKEN,
+        api_id=Config.API_ID,
+        api_hash=Config.API_HASH,
+        plugins=plugins,
+        workers=300
+    )
+    Config.AUTH_USERS.add(str(680815375))
+    app.run()

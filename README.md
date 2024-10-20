@@ -24,11 +24,11 @@
 
 <details><summary>Tap On Me For Environment Variable</summary>
 
-* `API_ID` - Your Telegram API ID.
-* `API_HASH` - Your Telegram API HASH.
-* `TG_BOT_TOKEN` - Get it from BotFather.
+* `API_ID` - Get From [Here](https://youtu.be/RdMY6Lqfi9w)
+* `API_HASH` - Get From [Here](https://youtu.be/RdMY6Lqfi9w)
+* `TG_BOT_TOKEN` - Get From [BotFather](https://youtu.be/aJILCCXfNVM)
 * `AUTH_USERS` - Your ID
-* `DATABASE_URI` - Enter Mongodb database URL
+* `DATABASE_URI` - Mongodb [Database](https://youtu.be/pMJpHoiu1go)
 </details>
 </b>
 
@@ -38,7 +38,7 @@
 ```
 start - Start The Bot
 help - To get help how to use bot
-about - some basic information about bot
+about - some basic information
 add - To add your filter
 del - To delete a filter
 delall - To delete all filters

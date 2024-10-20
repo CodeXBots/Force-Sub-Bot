@@ -1,56 +1,65 @@
 {
-    "name": "Force-Sub-Bot",
-    "description": "Python based bot to Force Users to sub a channel.",
-    "logo": "",
+    "name": "FILTER BOT",
+    "description": "An filter bot using Mongo DB",
+    "logo": "https://telegra.ph/file/71aaa621508cd696ab538.jpg",
     "keywords": [
-        "telegram",
-        "pyrogram",
-        "pyrogrambot",
-        "telegram-bot",
-        "Forcesub",
-        "ForceSubBot"
+        "Filter",
+        "Telegram Bot",
+        "CodeXBots"
     ],
-    "repository": "https://github.com/CodeXBots/Force-Sub-Bot",
-    "website": "https://telegram.me/RahulReviews",
+    "website": "https://rahulreviewsyt.blogspot.com/",
+    "repository": "https://github.com/CodeXBots/Filter-Bot",
     "success_url": "https://telegram.me/RahulReviewsYT",
     "env": {
+        "WEBHOOK": {
+            "description": "No need to change this field!",
+            "value": "ANYTHING"
+        },
+        "TG_BOT_TOKEN": {
+            "description": "Your Telegram Bot Token from @BotFather",
+            "value": ""
+        },
         "API_HASH": {
-            "description": "You API HASH from my.telegram.org",
-            "value": "",
-            "required": true
+            "description": "Your API Hash from my.telegram.org",
+            "value": ""
         },
-        "APP_ID": {
-            "description": "You APP ID from my.telegram.org",
-            "value": "",
-            "required": true
+        "API_ID": {
+            "description": "Your APP ID from my.telegram.org",
+            "value": ""
         },
-        "BOT_TOKEN": {
-            "description": "Bot token, get it from @BotFather.",
-            "value": "",
-            "required": true
+        "AUTH_USERS": {
+            "description": "ID of users that can use the bot commands",
+            "value": ""
         },
-        "UPDATES_CHANNEL": {
-            "description": "Your bot updates channel username without @ or leave empty",
-            "value": "",
+        "DATABASE_URI": {
+            "description": "Database URL from https://cloud.mongodb.com/",
+            "value": ""
+        },
+        "DATABASE_NAME": {
+            "description": "Your database name from mongoDB. ( Default will 'Cluster0' )",
+            "value": "Cluster0",
             "required": false
         },
-        "SUDO_USERS": {
-            "description": "Sudo users (Goto @JVToolsBot and send /id to get your id)",
-            "value": "",
+        "SAVE_USER": {
+            "description": "Do you need to save user details? Usefull for getting userinfo and total user counts. May reduce filter capacity. Give yes or no",
+            "value": "no",
+            "required": false
+        },
+        "HEROKU_API_KEY": {
+            "description": "To check dyno status. Go to https://dashboard.heroku.com/account, scroll down and press Reveal API",
+            "value": "None",
             "required": false
         }
     },
-    "addons": [
-    {
-         "options": {
-            "version": "12"
-         },
-         "plan": "heroku-postgresql"
-      }
-  ],
     "buildpacks": [
         {
             "url": "heroku/python"
         }
-    ]
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
 }

@@ -1,7 +1,5 @@
-TgCrypto
 pyrogram==2.0.106
-sqlalchemy==1.3.20
-psycopg2
-Flask==2.2.2
-gunicorn==20.1.0
-aiohttp==3.8.1
+TgCrypto
+umongo
+dnspython
+heroku3

@@ -105,8 +105,7 @@ async def showinfo(client, message):
         f"<b>Username</b> : {user_name}\n\n"
         f"<b>Permanant USER link</b> : <a href='tg://user?id={id}'>Click here!</a>\n\n"
         f"<b>DC ID</b> : {dcid}\n\n",
-        quote=True,
-        parse_mode="html"
+        quote=True
     )
 
 
